@@ -8,6 +8,8 @@ import { logout } from './slices/authSlice';
 
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Newsletter from './components/NewsLetter';
+import SearchSection from './components/SearchSection';
 
 const App = () => {
   const dispatch = useDispatch();
@@ -27,11 +29,13 @@ const App = () => {
     <>
       <ToastContainer />
       <Header />
+      <SearchSection />
       <main className='py-3'>
         <Container>
           <Outlet />
         </Container>
       </main>
+      <Newsletter />
       <Footer />
     </>
   );

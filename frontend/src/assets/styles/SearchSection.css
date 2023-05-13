@@ -1,0 +1,51 @@
+.image-section {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+  }
+
+  .image-section__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .image-section__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3); /* change the opacity here */
+  }
+
+  .image-section__text {
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .image-section__form {
+    display: flex;
+  }
+
+  .image-section__input {
+    width: 40rem;
+    height: 4rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+  }
+
+  .image-section__button {
+    width: 10rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+  }

@@ -1,0 +1,68 @@
+[
+  {
+    "title": "50% off shoes",
+    "description": "Get 50% off all shoes in store!",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+    "category": "Fashion",
+    "discount": 50,
+    "originalPrice": 100,
+    "discountedPrice": 50,
+    "expiryDate": "2023-06-30T00:00:00.000Z",
+    "postedDate": "2023-05-12T00:00:00.000Z"
+  },
+  {
+    "title": "20% off headphones",
+    "description": "Get 20% off all headphones in store!",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+    "category": "Electronics",
+    "discount": 20,
+    "originalPrice": 50,
+    "discountedPrice": 40,
+    "expiryDate": "2023-06-15T00:00:00.000Z",
+    "postedDate": "2023-05-10T00:00:00.000Z"
+  },
+  {
+    "title": "$10 off first order",
+    "description": "Get $10 off your first order with our app!",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80",
+    "category": "Food",
+    "discount": 0,
+    "originalPrice": 0,
+    "discountedPrice": 0,
+    "expiryDate": "2023-07-31T00:00:00.000Z",
+    "postedDate": "2023-05-08T00:00:00.000Z"
+  },
+  {
+    "title": "Free shipping on orders over $50",
+    "description": "Get free shipping on orders over $50!",
+    "image": "https://images.unsplash.com/photo-1605745341112-85968b19335b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80",
+    "category": "Retail",
+    "discount": 0,
+    "originalPrice": 0,
+    "discountedPrice": 0,
+    "expiryDate": "2023-06-30T00:00:00.000Z",
+    "postedDate": "2023-05-05T00:00:00.000Z"
+  },
+  {
+    "title": "Buy one, get one free",
+    "description": "Buy one item, get another item of equal or lesser value for free!",
+    "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
+    "category": "Retail",
+    "discount": 100,
+    "originalPrice": 30,
+    "discountedPrice": 15,
+    "expiryDate": "2023-05-31T00:00:00.000Z",
+    "postedDate": "2023-05-01T00:00:00.000Z"
+  },
+  {
+    "title": "20% off all books",
+    "description": "Get 20% off all books in store!",
+    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1773&q=80",
+    "category": "Books",
+    "discount": 20,
+    "originalPrice": 25,
+    "discountedPrice": 20,
+    "expiryDate": "2023-06-30T00:00:00.000Z",
+    "postedDate": "2023-04-30T00:00:00.000Z"
+  }
+]
