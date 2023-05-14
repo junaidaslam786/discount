@@ -1,5 +1,11 @@
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-    grid-gap: 1rem;
-  }
+.section {
+  height: 100%;
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.section1 {
+    height: 100%;
+}

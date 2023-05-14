@@ -1,67 +1,44 @@
-// import { useParams } from 'react-router-dom';
-// import { useGetProductsQuery } from '../slices/productsApiSlice';
-// import { Link } from 'react-router-dom';
-// import Product from '../components/Product';
-// import Loader from '../components/Loader';
-// import Message from '../components/Message';
-// import Paginate from '../components/Paginate';
-// import ProductCarousel from '../components/ProductCarousel';
-// import Meta from '../components/Meta';
-import data from '../data.json';
-import SingleDeal from '../components/SingleDeal';
-import '../assets/styles/Home.css'
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import home1 from '../assets/images/home1.png';
+import gift from '../assets/images/gift.png';
+import '../assets/styles/Home.css';
+
+const Section = ({ children }) => <div>{children}</div>;
 
 const HomeScreen = () => {
   return (
-    <div className='card-container'>
-      {data.map((deal, index) => (
-        <SingleDeal key={index} deal={deal} />
-      ))}
-    </div>
+    <Container className="p-4">
+      <Row>
+        <Col md={4}>
+          <Section>
+            <img src={home1} alt="home1" className="section" />
+          </Section>
+        </Col>
+        <Col md={4}>
+          <Section>
+            <div className="d-flex align-items-center justify-content-center">
+              <h6>TOP DISCOUNT SALES</h6>
+            </div>
+            <img src={gift} alt="home1" className="section1" />
+          </Section>
+        </Col>
+        <Col md={'5'}>
+          <Section>
+            <img src={home1} alt="home1" className="section" />
+          </Section>
+        </Col>
+        <Col md={5}>
+          <Section>
+            <div className="d-flex align-items-center justify-content-center">
+              <h6>TOP DISCOUNT SALES</h6>
+            </div>
+            <img src={gift} alt="home1" className="section1" />
+          </Section>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 
 export default HomeScreen;
-
-// const { pageNumber, keyword } = useParams();
-
-// const { data, isLoading, error } = useGetProductsQuery({
-//   keyword,
-//   pageNumber,
-// });
-
-// return (
-//   <>
-//     {!keyword ? (
-//       <ProductCarousel />
-//     ) : (
-//       <Link to='/' className='btn btn-light mb-4'>
-//         Go Back
-//       </Link>
-//     )}
-//     {isLoading ? (
-//       <Loader />
-//     ) : error ? (
-//       <Message variant='danger'>
-//         {error?.data?.message || error.error}
-//       </Message>
-//     ) : (
-//       <>
-//         <Meta />
-//         <h1>Latest Products</h1>
-//         <Row>
-//           {data.products.map((product) => (
-//             <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
-//               <Product product={product} />
-//             </Col>
-//           ))}
-//         </Row>
-//         <Paginate
-//           pages={data.pages}
-//           page={data.page}
-//           keyword={keyword ? keyword : ''}
-//         />
-//       </>
-//     )}
-//   </>
-// );
