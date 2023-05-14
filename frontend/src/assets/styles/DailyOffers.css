@@ -1,9 +1,4 @@
-/* .card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  grid-gap: 1rem;
-  justify-content: center; /* Added this line */
-*/ .card-container {
+.card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
